@@ -1,0 +1,9 @@
+git status
+git add (nome do arquivo) ou .
+git commit -m "escrever mensagem"
+git push origin master
+
+git branch
+git branch (nome da branch)
+git checkout (nome da branch)
+
