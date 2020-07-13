@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
 
 const NotFoundPage = () => (
   <Layout>
@@ -12,7 +13,8 @@ const NotFoundPage = () => (
 Belo Horizonte - MG
 Estado e CEP 31155-420 E-mail: atendimento@goliveturismo.com.br
 Telefone: 55-31-3504-3686</h3>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Link to="/PagInicial/">Go to PagInicial</Link>
+    <Link to="/Quem somos/">Go to Quem somos</Link>
   </Layout>
 )
 
